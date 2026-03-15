@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANI.films | Cinematic Reels Editor Pune</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(120deg,#000,#1a1a1a);
+}
+
+h1{
+    font-size:60px;
+    letter-spacing:2px;
+}
+
+.tag{
+    margin-top:15px;
+    color:#bbb;
+    font-size:20px;
+}
+
+.cta{
+    margin-top:30px;
+    padding:14px 28px;
+    border:none;
+    background:#f4b400;
+    color:black;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    margin-bottom:30px;
+    font-size:34px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#151515;
+    padding:25px;
+    border-radius:10px;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.video{
+    background:#1a1a1a;
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+    color:#888;
+}
+
+.contact{
+    text-align:center;
+    background:#111;
+    border-radius:10px;
+    padding:40px;
+}
+
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:6px;
+}
+
+button.submit{
+    background:#f4b400;
+    border:none;
+    padding:14px 26px;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#aaa;
+    font-size:14px;
+}
+
+a{
+color:#f4b400;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ANI.films</h1>
+<p class="tag">Cinematic Reels • Video Editing • Visual Storytelling</p>
+<button class="cta" onclick="document.getElementById('contact').scrollIntoView()">Book a Shoot</button>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p>
+Hi, I'm Anish – a cinematic reels editor and videographer based in Pune.
+I create professional Instagram reels, cinematic bike videos, lifestyle edits
+and social media content for creators and brands.
+</p>
+</section>
+
+<section>
+<h2>Services</h2>
+<div class="services">
+
+<div class="card">
+<h3>Instagram Reels Editing</h3>
+<p>Professional cinematic edits, music sync, transitions and color grading.</p>
+</div>
+
+<div class="card">
+<h3>Videography</h3>
+<p>Bike shoots, lifestyle shoots and cinematic visuals.</p>
+</div>
+
+<div class="card">
+<h3>Color Grading</h3>
+<p>Professional cinematic color grading for reels and videos.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>My Work</h2>
+<div class="portfolio">
+
+<div class="video">Your Reel Video Here</div>
+<div class="video">Bike Cinematic Video</div>
+<div class="video">Instagram Reel Edit</div>
+
+</div>
+
+<p style="margin-top:25px;">
+Instagram: <a href="https://instagram.com/ani.films63">@ani.films63</a>
+</p>
+
+</section>
+
+<section id="contact">
+<h2>Book a Shoot</h2>
+
+<div class="contact">
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Phone Number">
+<input type="text" placeholder="Location">
+<textarea placeholder="Tell me about your shoot"></textarea>
+<button class="submit">Send Booking Request</button>
+</form>
+
+<p style="margin-top:20px;">
+Email: anish6366ff@gmail.com<br>
+Phone: +91 7058994153
+</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 ANI.films | Cinematic Reels Editor Pune
+</footer>
+
+</body>
+</html>
