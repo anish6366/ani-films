@@ -171,12 +171,30 @@ and social media content for creators and brands.
 <div class="gallery">
   <img src="IMG_2063.JPG.jpeg" width="300" alt="My Work"></div>
 <div class="hero">
-    <img src="IMG_2065.jpg.jpeg" width="300" alt="Bike Cinematic Video" class="bg-image">
+  <img src="IMG_2065.jpg.jpeg" alt="Bike Cinematic Video" class="bg-image">
 
-    <video class="IMG_2073.MOV" width="300" alt="Bike Cinematic Video" autoplay muted loop playsinline>
-        <source src="video.mp4" type="video/mp4">
-    </video>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="video.mp4" type="video/mp4">
+  </video>
 </div>
+
+<style>
+.hero {
+  position: relative;
+  width: 300px; /* same as image */
+}
+
+.bg-image,
+.bg-video {
+  width: 100%; /* full width of container */
+  height: auto; /* maintain aspect ratio */
+  display: block;
+}
+
+.bg-video {
+  position: relative; /* or absolute if you want it over the image */
+}
+</style>
 <div class="gallery"><img src="IMG_2068.JPG.jpeg" width="300" alt="Instagram Reel Edit"></div>
 
 </div>
@@ -218,7 +236,7 @@ function sendToWhatsApp() {
   const encodedMessage = encodeURIComponent(message);
 
   // Replace with your WhatsApp number including country code, e.g., 919876543210
-  const whatsappNumber = "919876543210";
+  const whatsappNumber = "917058994153";
 
   // Open WhatsApp with pre-filled message
   window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
